@@ -1,0 +1,10 @@
+name: Hello_world
+
+on: push
+
+jobs:
+  hello-world:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Say Hello
+        run: echo "Hello and Welcome to the GH-200 session!!!"
