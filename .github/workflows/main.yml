@@ -19,5 +19,5 @@ jobs:
         run: |
           sudo apt-get install -y figlet
           figlet "GH-200 COHACK"
-          echo"-----------------------------"
+          echo "-----------------------------"
           figlet -f digital "GitHub Actions
